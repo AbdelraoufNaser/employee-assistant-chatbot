@@ -13,7 +13,7 @@ def get_llm():
     """
     Initializes and returns the ChatGoogleGenerativeAI model.
     """
-    api_key = "AIzaSyCOKacWmRoGLPW055MvoaB7Mj2dIDvVQAY" 
+    api_key = ""
 
     if api_key == "YOUR_GOOGLE_API_KEY_HERE":
         print("="*50)
@@ -155,3 +155,4 @@ def create_rag_chain(retriever, llm):
     )
     
     return rag_chain_with_memory
+
